@@ -1,9 +1,16 @@
 ### faiss 编译安装
 
+#### 安装依赖
+
+```
+yum install llvm-toolset-7-libomp-devel -y
+yum install openblas-devel.x86_64 -y
+```
+
 #### 安装swig3.0
 
 ```
-tar -zxvf swig-3*
+tar -zxvf swig-3&
 cd swig-3*
 ./configure
 make
