@@ -3,7 +3,7 @@
 #### 安装swig3.0
 
 ```
-tar -zxvf swig-3&
+tar -zxvf swig-3*
 cd swig-3*
 ./configure
 make
